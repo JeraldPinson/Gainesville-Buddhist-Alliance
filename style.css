@@ -79,6 +79,9 @@ body {
   }
 }
 
+
+
+
 /* Preload hover images by referencing them in a hidden pseudo-element */
 body::after {
   content: url("./Final/Full/Home page_art_overlay.jpg")
