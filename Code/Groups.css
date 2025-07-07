@@ -1,0 +1,186 @@
+
+.cormorant {
+  font-family: "Cormorant", serif;
+  font-optical-sizing: auto;
+  /* font-weight: 40px; */
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  background-color: #ddd0b5; /* sampled beige background */
+  font-family: 'Cormorant', sans-serif;
+}
+
+
+
+.nav-bar {
+  width: 75%;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center; /* << fix here */
+  align-items: center;
+  gap: 0; /* Optional, but makes sure no flex gap sneaks in */
+}
+
+.nav-link {
+  flex: 1 1 0;
+  max-width: 180px;
+  text-align: center;
+  padding: 10px 0;
+  font-size: clamp(0.8rem, 2vw, 1.4rem); /* scales with viewport */
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.nav-link.about {
+  background-color: #969763;
+}
+
+.nav-link.schedule {
+  background-color: #9d8d70;
+}
+
+.nav-link.groups {
+  background-color: #899cab;
+}
+
+.nav-link.news {
+  background-color: #968997;
+}
+
+.nav-link.contact {
+  background-color: #ab7b61;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  margin-left: 15vw;
+}
+
+.design {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+}
+
+.swap-on-hover.design:hover {
+  content: url("/Final/Groups/Groups_top_art_overlay.jpg");
+}
+
+.swap-on-hover {
+  display: block;
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+}
+
+.swap-on-hover:hover {
+  content: url("/Final/Groups/List of names/Florida Sanbo Zen.jpg");
+}
+
+.swap-on-hover.gateless-gate:hover {
+  content: url("/Final/Groups/List of names/Gainesville Gateless Gate.jpg");
+}
+
+.swap-on-hover.karma:hover {
+  content: url("/Final/Groups/List of names/Gainesville Karma Thegsum Choling.jpg");
+}
+
+.swap-on-hover.facebook:hover {
+  content: url("/Final/Groups/List of names/Gainesville Meditation Facebook.jpg");
+}
+
+.swap-on-hover.liveoak:hover {
+  content: url("/Final/Groups/List of names/Live Oak.jpg");
+}
+
+.swap-on-hover.shala:hover {
+  content: url("/Final/Groups/List of names/Shala.jpg");
+}
+
+.swap-on-hover.shambala:hover {
+  content: url("/Final/Groups/List of names/Shambala Gainesvile.jpg");
+}
+
+.swap-on-hover.tara:hover {
+  content: url("/Final/Groups/List of names/Tara Mandala.jpg");
+}
+
+.swap-on-hover.temple:hover {
+  content: url("/Final/Groups/List of names/Temple of the Universe.jpg");
+}
+
+.swap-on-hover.university:hover {
+  content: url("/Final/Groups/List of names/UF.jpg");
+}
+
+.swap-on-hover.unitarian:hover {
+  content: url("/Final/Groups/List of names/UU Meditation.jpg");
+}
+
+.swap-on-hover.vipassana:hover {
+  content: url("/Final/Groups/List of names/Vipassana.jpg");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .nav-bar {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .nav-link {
+    flex: none;
+    width: 70%;
+    max-width: 400px;
+    margin: 6px 0; /* spacing between each */
+    font-size: clamp(1.5rem, 6vw, 1.5rem);
+    padding: 12px 0;
+  }
+
+  .header-content {
+    flex-direction: column;
+    padding: 15px 0;
+  }
+
+  .tree-image {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+
+
+

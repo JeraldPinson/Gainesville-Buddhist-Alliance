@@ -1,0 +1,108 @@
+
+.cormorant {
+  font-family: "Cormorant", serif;
+  font-optical-sizing: auto;
+  /* font-weight: 40px; */
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  background-color: #dcceb3; /* sampled beige background */
+  font-family: 'Cormorant', sans-serif;
+}
+
+.main-header {
+  width: 100%;
+}
+
+.nav-bar {
+  width: 75%;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center; /* << fix here */
+  align-items: center;
+  gap: 0; /* Optional, but makes sure no flex gap sneaks in */
+}
+
+.nav-link {
+  flex: 1 1 0;
+  max-width: 180px;
+  text-align: center;
+  padding: 10px 0;
+  font-size: clamp(0.8rem, 2vw, 1.4rem); /* scales with viewport */
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.nav-link.about {
+  background-color: #969763;
+}
+
+.nav-link.schedule {
+  background-color: #9d8d70;
+}
+
+.nav-link.groups {
+  background-color: #899cab;
+}
+
+.nav-link.news {
+  background-color: #968997;
+}
+
+.nav-link.contact {
+  background-color: #ab7b61;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+.tree-image, .schedule {
+  width: 70%;
+  max-width: 1200px;
+  height: auto;
+}
+
+
+@media (max-width: 768px) {
+  .nav-bar {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .nav-link {
+    flex: none;
+    width: 70%;
+    max-width: 400px;
+    margin: 6px 0; /* spacing between each */
+    font-size: clamp(1.5rem, 6vw, 1.5rem);
+    padding: 12px 0;
+  }
+
+  .header-content {
+    flex-direction: column;
+    padding: 15px 0;
+  }
+
+  .tree-image {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.swap-on-hover.schedule:hover {
+  content: url("/Final/Schedule/Web/Schedule_top_art_overlay.jpg");
+}
+
+

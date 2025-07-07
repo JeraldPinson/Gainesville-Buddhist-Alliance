@@ -1,0 +1,107 @@
+
+.cormorant {
+  font-family: "Cormorant", serif;
+  font-optical-sizing: auto;
+  /* font-weight: 40px; */
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  background-color: #dcceb3; /* sampled beige background */
+  font-family: 'Cormorant', sans-serif;
+}
+
+.main-header {
+  width: 100%;
+}
+
+.nav-bar {
+  width: 75%;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center; /* << fix here */
+  align-items: center;
+  gap: 0; /* Optional, but makes sure no flex gap sneaks in */
+}
+
+.nav-link {
+  flex: 1 1 0;
+  max-width: 180px;
+  text-align: center;
+  padding: 10px 0;
+  font-size: clamp(0.8rem, 2vw, 1.4rem); /* scales with viewport */
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.nav-link.about {
+  background-color: #969763;
+}
+
+.nav-link.schedule {
+  background-color: #9d8d70;
+}
+
+.nav-link.groups {
+  background-color: #899cab;
+}
+
+.nav-link.news {
+  background-color: #968997;
+}
+
+.nav-link.contact {
+  background-color: #ab7b61;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+.tree, .about, .groups, .schedule, .news, .contact {
+  width: 90%;
+  max-width: 900px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .nav-bar {
+    display: none;
+  }
+}
+
+.tree:hover {
+  content: url("/Final/Full/Home page_art_overlay.jpg");
+}
+
+.swap-on-hover.about:hover {
+  content: url("/Final/Full/About_art_overlay.jpg");
+}
+
+.swap-on-hover.groups:hover {
+  content: url("/Final/Full/Groups_art_overlay.jpg");
+}
+
+.swap-on-hover.schedule:hover {
+  content: url("/Final/Full/Schedule_art_overlay.jpg");
+}
+
+.swap-on-hover.news:hover {
+  content: url("/Final/Full/News_art_overlay.jpg");
+}
+
+.swap-on-hover.contact:hover {
+  content: url("/Final/Full/Contact_art_overlay.jpg");
+}
+
+
+
