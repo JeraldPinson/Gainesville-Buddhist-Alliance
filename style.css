@@ -79,6 +79,22 @@ body {
   }
 }
 
+/* Preload hover images by referencing them in a hidden pseudo-element */
+body::after {
+  content: url("./Final/Full/Home page_art_overlay.jpg")
+           url("./Final/Full/About_art_overlay.jpg")
+           url("./Final/Full/Groups_art_overlay.jpg")
+           url("./Final/Full/Schedule_art_overlay.jpg")
+           url("./Final/Full/News_art_overlay.jpg")
+           url("./Final/Full/Contact_art_overlay.jpg");
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  z-index: -1;
+  opacity: 0;
+}
+
 .tree:hover {
   content: url("./Final/Full/Home page_art_overlay.jpg");
 }
