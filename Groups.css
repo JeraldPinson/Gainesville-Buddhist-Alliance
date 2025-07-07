@@ -80,7 +80,7 @@ body {
 }
 
 .swap-on-hover.design:hover {
-  content: url("/Final/Groups/Groups_top_art_overlay.jpg");
+  content: url("./Final/Groups/Groups_top_art_overlay.jpg");
 }
 
 .swap-on-hover {
@@ -91,7 +91,7 @@ body {
 }
 
 .swap-on-hover:hover {
-  content: url("/Final/Groups/List of names/Florida Sanbo Zen.jpg");
+  content: url("./Final/Groups/List of names/Florida Sanbo Zen.jpg");
 }
 
 .swap-on-hover.gateless-gate:hover {
@@ -99,43 +99,43 @@ body {
 }
 
 .swap-on-hover.karma:hover {
-  content: url("/Final/Groups/List of names/Gainesville Karma Thegsum Choling.jpg");
+  content: url("./Final/Groups/List of names/Gainesville Karma Thegsum Choling.jpg");
 }
 
 .swap-on-hover.facebook:hover {
-  content: url("/Final/Groups/List of names/Gainesville Meditation Facebook.jpg");
+  content: url("./Final/Groups/List of names/Gainesville Meditation Facebook.jpg");
 }
 
 .swap-on-hover.liveoak:hover {
-  content: url("/Final/Groups/List of names/Live Oak.jpg");
+  content: url("./Final/Groups/List of names/Live Oak.jpg");
 }
 
 .swap-on-hover.shala:hover {
-  content: url("/Final/Groups/List of names/Shala.jpg");
+  content: url("./Final/Groups/List of names/Shala.jpg");
 }
 
 .swap-on-hover.shambala:hover {
-  content: url("/Final/Groups/List of names/Shambala Gainesvile.jpg");
+  content: url("./Final/Groups/List of names/Shambala Gainesvile.jpg");
 }
 
 .swap-on-hover.tara:hover {
-  content: url("/Final/Groups/List of names/Tara Mandala.jpg");
+  content: url("./Final/Groups/List of names/Tara Mandala.jpg");
 }
 
 .swap-on-hover.temple:hover {
-  content: url("/Final/Groups/List of names/Temple of the Universe.jpg");
+  content: url("./Final/Groups/List of names/Temple of the Universe.jpg");
 }
 
 .swap-on-hover.university:hover {
-  content: url("/Final/Groups/List of names/UF.jpg");
+  content: url("./Final/Groups/List of names/UF.jpg");
 }
 
 .swap-on-hover.unitarian:hover {
-  content: url("/Final/Groups/List of names/UU Meditation.jpg");
+  content: url("./Final/Groups/List of names/UU Meditation.jpg");
 }
 
 .swap-on-hover.vipassana:hover {
-  content: url("/Final/Groups/List of names/Vipassana.jpg");
+  content: url("./Final/Groups/List of names/Vipassana.jpg");
 }
 
 

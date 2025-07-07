@@ -80,27 +80,27 @@ body {
 }
 
 .tree:hover {
-  content: url("/Final/Full/Home page_art_overlay.jpg");
+  content: url("./Final/Full/Home page_art_overlay.jpg");
 }
 
 .swap-on-hover.about:hover {
-  content: url("/Final/Full/About_art_overlay.jpg");
+  content: url("./Final/Full/About_art_overlay.jpg");
 }
 
 .swap-on-hover.groups:hover {
-  content: url("/Final/Full/Groups_art_overlay.jpg");
+  content: url("./Final/Full/Groups_art_overlay.jpg");
 }
 
 .swap-on-hover.schedule:hover {
-  content: url("/Final/Full/Schedule_art_overlay.jpg");
+  content: url("./Final/Full/Schedule_art_overlay.jpg");
 }
 
 .swap-on-hover.news:hover {
-  content: url("/Final/Full/News_art_overlay.jpg");
+  content: url("./Final/Full/News_art_overlay.jpg");
 }
 
 .swap-on-hover.contact:hover {
-  content: url("/Final/Full/Contact_art_overlay.jpg");
+  content: url("./Final/Full/Contact_art_overlay.jpg");
 }
 
 

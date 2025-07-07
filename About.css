@@ -97,7 +97,7 @@ body {
 }
 
 .swap-on-hover.about:hover {
-  content: url("/Final/About/Web/About_top_art_overlay.jpg");
+  content: url("./Final/About/Web/About_top_art_overlay.jpg");
 }
 
 

@@ -102,7 +102,7 @@ body {
 }
 
 .swap-on-hover.schedule:hover {
-  content: url("/Final/Schedule/Web/Schedule_top_art_overlay.jpg");
+  content: url("./Final/Schedule/Web/Schedule_top_art_overlay.jpg");
 }
 
 

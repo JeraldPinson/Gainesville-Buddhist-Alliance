@@ -101,7 +101,7 @@ body {
 }
 
 .swap-on-hover.contact:hover {
-  content: url("/Final/Contact/Web/Contact_full_art_overlay.jpg");
+  content: url("./Final/Contact/Web/Contact_full_art_overlay.jpg");
 }
 
 
