@@ -38,6 +38,10 @@ body {
   text-decoration: underline;
 }
 
+.nav-link.home {
+  background-color: #d6801fa5;
+}
+
 .nav-link.about {
   background-color: #969763;
 }
