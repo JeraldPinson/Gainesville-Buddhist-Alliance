@@ -68,7 +68,7 @@ body {
 }
 
 .tree-image, .about {
-  width: 70%;
+  width: 70vh;
   max-width: 1200px;
   height: auto;
 }
@@ -80,6 +80,12 @@ body {
     align-items: center;
   }
 
+  .tree-image, .about {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+}
+
   .nav-link {
     flex: none;
     width: 70%;
@@ -89,7 +95,7 @@ body {
     padding: 12px 0;
   }
 
-  .header-content {
+  .header-content{
     flex-direction: column;
     padding: 15px 0;
   }
